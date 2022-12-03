@@ -1,0 +1,111 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hi there, how can I help?", "Good to see you again"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": ["1234567890", "_", "{", "}", " "],
+            "responses": ["Sorry, can't understand you", "Please give me more info"],
+            "context": ["_"]
+        },
+        {
+            "tag": "options",
+            "patterns": ["who can register for course?"],
+            "responses": ["NPTEL online courses are open to everyone. The courses of all domains are available to register and learn from all different educational backgrounds."],
+            "context": [""]
+        },
+        {
+            "tag": "question",
+            "patterns": ["what is the course duration?", "course duration"],
+            "responses": ["The course duration will be for about 4,8 and 12 weeks."],
+            "context": [""]
+        },
+        {
+            "tag": "question1",
+            "patterns": ["How are certificates issued?"],
+            "responses": ["Certificates will be issued based on an in-person proctored online examination which will be conducted after the course concludes. A nominal fee is applicable to take the in-person proctored examination. Registration for the proctored exam will commence two weeks after the start of the online course."],
+            "context": [""]
+        },
+        {
+            "tag": "question2",
+            "patterns": ["Are the classes free?"],
+            "responses": ["Yes. Access to the online course resources is free. A nominal fee is applicable if you want to take the in-person proctored online examination"],
+            "context": [""]
+        },
+        {
+            "tag": "question3",
+            "patterns": ["Can I take a course more than once?"],
+            "responses": ["Yes, you can sign up every time the course is offered. You'll begin each new session with a blank record."],
+            "context": [""]
+        },
+        {
+            "tag": "question4",
+            "patterns": ["Can I access the course content after a course ends?"],
+            "responses": ["Course lectures will be made available online even after the course ends"],
+            "context": [""]
+        },
+        {
+            "tag": "question5",
+            "patterns": ["What is the fee for the certification exam?"],
+            "responses": ["The fee will be posted on the portal prominently.And depends on the type of course. We expect it to be around Rs. 1000."],
+            "context": [""]
+        },
+        {
+            "tag": "question6",
+            "patterns": ["Where should I write the certification exam?"],
+            "responses": ["It will be in centre examination based on your preferences of choice city "],
+            "context": [""]
+        },
+        {
+            "tag": "question7",
+            "patterns": ["I am not free during the dates of the certification exam. What can I do?"],
+            "responses": ["The certification exams are on Saturday and Sunday. We do hope you can make it on one of the two days. If it is not possible, you will have to appear for the exams offered in the future."],
+            "context": [""]
+        },
+        {
+            "tag": "question8",
+            "patterns": ["What is NPTEL and who are your partners in this program?"],
+            "responses": ["NPTEL stands for National Programme for Technology Enhanced Learning, and it is a joint project of seven IITs and IISc Bangalore funded by the Ministry of Human Resource Development, Government of India. In this certification effort, the entire portal onlinecourses.nptel.ac.in is powered by Google as part of their continuing partnership with NPTEL. NASSCOM is a partner in the program, and NASSCOM member companies such as TCS and CTS have participated in syllabus and content creation."],
+            "context": [""]
+        },
+        {
+            "tag": "question9",
+            "patterns": ["Who can register for the course?"],
+            "responses": ["NPTEL online courses are open to everyone. The courses in programming, data structures and algorithms are aimed at undergraduate college students (any engineering or science stream) in their 2nd year or above."],
+            "context": [""]
+        },
+        {
+            "tag": "question10",
+            "patterns": ["What will be the duration of the course?", "duration of course"],
+            "responses": ["The course duration will be for about 4,8 and 12 weeks.", "The course duration will be for about 4 to 12 weeks."],
+            "context": [""]
+        },
+        {
+            "tag": "question11",
+            "patterns": ["full form of nptel"],
+            "responses": ["NPTEL stands for National Programme for Technology Enhanced Learning"],
+            "context": [""]
+        },
+        {
+            "tag": "question12",
+            "patterns": ["ffgghh", "abcdefghijklmnopqrstuvwxyz"],
+            "responses": ["Sorry, can't understand you", "Please give me more info"],
+            "context": ["_"]
+        }
+    ]
+}
