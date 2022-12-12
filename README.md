@@ -26,6 +26,7 @@ Here are the 5 steps to create a chatbot in Flask from scratch:
 
 The dataset we will be using is ‘data.json’. 
 This is a JSON file that contains the patterns we need to find and the responses we want to return to the user.
+
 Example:
 {"intents": [
         {"tag": "greeting",
@@ -35,6 +36,8 @@ Example:
         },
       ]
     };
+    
+    
 1.Import and load the data file:
 First, make a file name as trainning.py. We import the necessary packages for our chatbot and initialize the variables we will use in our Python project.
 The data file is in JSON format so we used the json package to parse the JSON file into Python. This is how our data.json file looks like.
@@ -48,7 +51,7 @@ Now, we will create the training data in which we will provide the input and the
 4.Build the model
 
 We have our training data ready, now we will build a deep neural network that has 3 layers. We use the Keras sequential API for this. After training the model for 200 epochs, we achieved 100% accuracy on our model. Let us save the model as ‘model.h5’.
-![Uploading training-bot-1536x864.png…]()
+
 
 5.Predict the response (Flask web-based GUI)
 
