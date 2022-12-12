@@ -1,4 +1,4 @@
-# MinreProject_AIBasedChatBot
+# Min Project_AIBasedChatBot To answer FAQs
 1st step is to  set up Env
 pip install tensorflow 
 pip install keras 
