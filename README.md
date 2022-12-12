@@ -1,10 +1,13 @@
 # Min Project_AIBasedChatBot To answer FAQs
 1st step is to  set up Env
-pip install tensorflow 
-pip install keras 
-pip install pickle
-pip install nltk
-pip install flask
+a\
+b\
+c
+pip install tensorflow \
+pip install keras \
+pip install pickle\
+pip install nltk\
+pip install flask\
 
 then extract zip file..
 1.data.json – The data file which has predefined patterns and responses.
