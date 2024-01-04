@@ -5,7 +5,7 @@ pip install tensorflow \
 pip install keras \
 pip install pickle\
 pip install nltk\
-pip install flask\
+pip install flask</br>
 
 then extract zip file..\
 1.data.json – The data file which has predefined patterns and responses.\
@@ -15,7 +15,6 @@ then extract zip file..\
 5.model.h5 – This is the trained model that contains information about the model and has weights of the neurons.\
 6.app.py – This is the flask Python script in which we implemented web-based GUI for our chatbot. Users can easily interact with the bot.\
         
-        Tutorial
 Here are the 5 steps to create a chatbot in Flask from scratch:\
 <br/>
 1.Import and load the data file\
@@ -64,8 +63,7 @@ static folder contains a subfolder with name styles. The styles folder contain c
 Templates folder HTML file with the name of index.html\
 app.py file for run the flask app using IDE.
 static/styles/style.css
-now it done 
-thank you :)\
+<br/>
 
 
 
