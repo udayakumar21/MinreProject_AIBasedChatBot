@@ -37,24 +37,21 @@ Example:\
       ]
     };
     
- \   
-1.Import and load the data file:\
+</br> 
+1.Import and load the data file:</br>
 First, make a file name as trainning.py. We import the necessary packages for our chatbot and initialize the variables we will use in our Python project.
 The data file is in JSON format so we used the json package to parse the JSON file into Python. This is how our data.json file looks like.
 
-2. Preprocess data\
+2. Preprocess data:</br>
 When working with text data, we need to perform various preprocessing on the data before design an ANN model. Tokenizing is the most basic and first thing you can do on text data. Tokenizing is the process of breaking the whole text into small parts like words.
 
-3.Create training and testing data\
+3.Create training and testing data:</br>
 Now, we will create the training data in which we will provide the input and the output. Our input will be the pattern and output will be the class our input pattern belongs to. But the computer doesn’t understand text so we will convert text into numbers.
 
-4.Build the model\
-
+4.Build the model:</br>
 We have our training data ready, now we will build a deep neural network that has 3 layers. We use the Keras sequential API for this. After training the model for 200 epochs, we achieved 100% accuracy on our model. Let us save the model as ‘model.h5’.
 
-
-5.Predict the response (Flask web-based GUI)\
-
+5.Predict the response (Flask web-based GUI): </br>
 Now to predict the sentences and get a response from the user to let us create a new file ‘app.py’using flask web-based framework.
 
 Note:: for making flask app we need to make to folders name as static and templates and app.py files.
